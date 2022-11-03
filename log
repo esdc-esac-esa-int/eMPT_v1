@@ -1,0 +1,1495 @@
+
+ -------------------------------------------------------------------------------
+ --- ipa - Initial Pointing Algorithm Module - Version 2.4 -- 1 September 2022 -
+ -------------------------------------------------------------------------------
+
+
+Median RA,Dec:   53.1505041  -27.7908600
+
+Median RA,Dec:   3 32 36.121  -27 47 27.096
+
+
+ Trial Identifier No.:        0
+ Configuration File:          00.conf                                                               
+ Disperser:                   PRISM/CLEAR         
+ S_0:                         3.50
+ Acceptance Zone:             0.343  0.420
+ Target Catalog:              test_trial_00.cat                                                     
+ Catalog Median Reference Position:     53.1505041  -27.7908600
+ Reference Image:                                                                                                                
+ Segmentation Map:                                                                                                               
+ Nominal Pointing & Roll:     53.1410475  -27.7919825   99.5746
+ Central Roll Correction:      0.0044
+ Search Zone:                 10.00     10.00
+ Angle_to_target,dva_mag:     80.78  0.99998
+ n_dither:                    1
+
+ IPA Mode: Pointings Grouped
+ Initial dig depth::       3
+ Min pointings in group:   3
+ Min number of groups:     1
+
+
+ Targets in Input Catalog:         13119
+ Priority 1 Targets:                   4
+ Number of Priority Classes:          20
+
+ Number Viable Slitlets on MSA:       108256
+
+ Total Number of reachable Priority Class 1 targets within Shift Range: 4
+
+ Reachable targets:
+   ID_cat
+     14170
+     14220
+      6139
+     58975
+
+ Total number of shift vectors in shift array: 5982
+ Shift Array digitization [mas]:   28.5   35.6
+
+ Maximum peak in convolved shift array:  4
+ Minimum amplitude peaks to be explored: 1
+ Total number of digital peaks to be fine-tuned: 334244
+
+ 334244 peaks out of 334244 processed
+
+ Maximum simultaneous Priority 1 Target Coverage: 4
+
+ Pointings providing simultaneous coverage from 4 and down to 4 targets will be saved
+
+ Eliminating low-coverage and duplicate pointings from fine-tuned list (patience please)
+
+ Final number of identified 4 or greater target coverage pointings: 235
+
+ Grouping optimal pointings per targets covered
+
+ Number of different 4 simultaneous target groupings: 1
+
+ Pass 1 - Group 1 covers 4 targets simultaneously in 235 pointings
+         ID_cat
+       14170
+       14220
+        6139
+       58975
+
+
+ 1 groups covering 4 targets at 3 or more pointings were found
+
+----------------------------------------------
+ CPU time used by ipa module [s]:    3.7
+----------------------------------------------
+
+
+ ------------------------------------------------------------------------------------------
+ --- k_make -- eMPT Slit Assignment k-list Generation Module Version 1.7 24 June 2022 -----
+ ------------------------------------------------------------------------------------------
+
+
+ Trial Identifier No.:    00
+ Configuration File:      00.conf                                                               
+ Disperser:               PRISM/CLEAR         
+ S_0:                     3.50
+ Acceptance Zone:           0.343  0.420
+ Target Catalog:             test_trial_00.cat                                                     
+ Reference Image:            none                                                                                                
+ Segmentation Map:           none                                                                                                
+ Angle_to_target,dva_mag:     80.78  1.000
+ n_dither:                    1
+ Total number of targets in input catalog:        13119
+ Number of Priority Classes in input catalog:     20
+ Total number of pointings in configuration file: 235
+
+ Processing k-space list for pointing 1 of 235
+ Processing k-space list for pointing 2 of 235
+ Processing k-space list for pointing 3 of 235
+ Processing k-space list for pointing 4 of 235
+ Processing k-space list for pointing 5 of 235
+ Processing k-space list for pointing 6 of 235
+ Processing k-space list for pointing 7 of 235
+ Processing k-space list for pointing 8 of 235
+ Processing k-space list for pointing 9 of 235
+ Processing k-space list for pointing 10 of 235
+ Processing k-space list for pointing 11 of 235
+ Processing k-space list for pointing 12 of 235
+ Processing k-space list for pointing 13 of 235
+ Processing k-space list for pointing 14 of 235
+ Processing k-space list for pointing 15 of 235
+ Processing k-space list for pointing 16 of 235
+ Processing k-space list for pointing 17 of 235
+ Processing k-space list for pointing 18 of 235
+ Processing k-space list for pointing 19 of 235
+ Processing k-space list for pointing 20 of 235
+ Processing k-space list for pointing 21 of 235
+ Processing k-space list for pointing 22 of 235
+ Processing k-space list for pointing 23 of 235
+ Processing k-space list for pointing 24 of 235
+ Processing k-space list for pointing 25 of 235
+ Processing k-space list for pointing 26 of 235
+ Processing k-space list for pointing 27 of 235
+ Processing k-space list for pointing 28 of 235
+ Processing k-space list for pointing 29 of 235
+ Processing k-space list for pointing 30 of 235
+ Processing k-space list for pointing 31 of 235
+ Processing k-space list for pointing 32 of 235
+ Processing k-space list for pointing 33 of 235
+ Processing k-space list for pointing 34 of 235
+ Processing k-space list for pointing 35 of 235
+ Processing k-space list for pointing 36 of 235
+ Processing k-space list for pointing 37 of 235
+ Processing k-space list for pointing 38 of 235
+ Processing k-space list for pointing 39 of 235
+ Processing k-space list for pointing 40 of 235
+ Processing k-space list for pointing 41 of 235
+ Processing k-space list for pointing 42 of 235
+ Processing k-space list for pointing 43 of 235
+ Processing k-space list for pointing 44 of 235
+ Processing k-space list for pointing 45 of 235
+ Processing k-space list for pointing 46 of 235
+ Processing k-space list for pointing 47 of 235
+ Processing k-space list for pointing 48 of 235
+ Processing k-space list for pointing 49 of 235
+ Processing k-space list for pointing 50 of 235
+ Processing k-space list for pointing 51 of 235
+ Processing k-space list for pointing 52 of 235
+ Processing k-space list for pointing 53 of 235
+ Processing k-space list for pointing 54 of 235
+ Processing k-space list for pointing 55 of 235
+ Processing k-space list for pointing 56 of 235
+ Processing k-space list for pointing 57 of 235
+ Processing k-space list for pointing 58 of 235
+ Processing k-space list for pointing 59 of 235
+ Processing k-space list for pointing 60 of 235
+ Processing k-space list for pointing 61 of 235
+ Processing k-space list for pointing 62 of 235
+ Processing k-space list for pointing 63 of 235
+ Processing k-space list for pointing 64 of 235
+ Processing k-space list for pointing 65 of 235
+ Processing k-space list for pointing 66 of 235
+ Processing k-space list for pointing 67 of 235
+ Processing k-space list for pointing 68 of 235
+ Processing k-space list for pointing 69 of 235
+ Processing k-space list for pointing 70 of 235
+ Processing k-space list for pointing 71 of 235
+ Processing k-space list for pointing 72 of 235
+ Processing k-space list for pointing 73 of 235
+ Processing k-space list for pointing 74 of 235
+ Processing k-space list for pointing 75 of 235
+ Processing k-space list for pointing 76 of 235
+ Processing k-space list for pointing 77 of 235
+ Processing k-space list for pointing 78 of 235
+ Processing k-space list for pointing 79 of 235
+ Processing k-space list for pointing 80 of 235
+ Processing k-space list for pointing 81 of 235
+ Processing k-space list for pointing 82 of 235
+ Processing k-space list for pointing 83 of 235
+ Processing k-space list for pointing 84 of 235
+ Processing k-space list for pointing 85 of 235
+ Processing k-space list for pointing 86 of 235
+ Processing k-space list for pointing 87 of 235
+ Processing k-space list for pointing 88 of 235
+ Processing k-space list for pointing 89 of 235
+ Processing k-space list for pointing 90 of 235
+ Processing k-space list for pointing 91 of 235
+ Processing k-space list for pointing 92 of 235
+ Processing k-space list for pointing 93 of 235
+ Processing k-space list for pointing 94 of 235
+ Processing k-space list for pointing 95 of 235
+ Processing k-space list for pointing 96 of 235
+ Processing k-space list for pointing 97 of 235
+ Processing k-space list for pointing 98 of 235
+ Processing k-space list for pointing 99 of 235
+ Processing k-space list for pointing 100 of 235
+ Processing k-space list for pointing 101 of 235
+ Processing k-space list for pointing 102 of 235
+ Processing k-space list for pointing 103 of 235
+ Processing k-space list for pointing 104 of 235
+ Processing k-space list for pointing 105 of 235
+ Processing k-space list for pointing 106 of 235
+ Processing k-space list for pointing 107 of 235
+ Processing k-space list for pointing 108 of 235
+ Processing k-space list for pointing 109 of 235
+ Processing k-space list for pointing 110 of 235
+ Processing k-space list for pointing 111 of 235
+ Processing k-space list for pointing 112 of 235
+ Processing k-space list for pointing 113 of 235
+ Processing k-space list for pointing 114 of 235
+ Processing k-space list for pointing 115 of 235
+ Processing k-space list for pointing 116 of 235
+ Processing k-space list for pointing 117 of 235
+ Processing k-space list for pointing 118 of 235
+ Processing k-space list for pointing 119 of 235
+ Processing k-space list for pointing 120 of 235
+ Processing k-space list for pointing 121 of 235
+ Processing k-space list for pointing 122 of 235
+ Processing k-space list for pointing 123 of 235
+ Processing k-space list for pointing 124 of 235
+ Processing k-space list for pointing 125 of 235
+ Processing k-space list for pointing 126 of 235
+ Processing k-space list for pointing 127 of 235
+ Processing k-space list for pointing 128 of 235
+ Processing k-space list for pointing 129 of 235
+ Processing k-space list for pointing 130 of 235
+ Processing k-space list for pointing 131 of 235
+ Processing k-space list for pointing 132 of 235
+ Processing k-space list for pointing 133 of 235
+ Processing k-space list for pointing 134 of 235
+ Processing k-space list for pointing 135 of 235
+ Processing k-space list for pointing 136 of 235
+ Processing k-space list for pointing 137 of 235
+ Processing k-space list for pointing 138 of 235
+ Processing k-space list for pointing 139 of 235
+ Processing k-space list for pointing 140 of 235
+ Processing k-space list for pointing 141 of 235
+ Processing k-space list for pointing 142 of 235
+ Processing k-space list for pointing 143 of 235
+ Processing k-space list for pointing 144 of 235
+ Processing k-space list for pointing 145 of 235
+ Processing k-space list for pointing 146 of 235
+ Processing k-space list for pointing 147 of 235
+ Processing k-space list for pointing 148 of 235
+ Processing k-space list for pointing 149 of 235
+ Processing k-space list for pointing 150 of 235
+ Processing k-space list for pointing 151 of 235
+ Processing k-space list for pointing 152 of 235
+ Processing k-space list for pointing 153 of 235
+ Processing k-space list for pointing 154 of 235
+ Processing k-space list for pointing 155 of 235
+ Processing k-space list for pointing 156 of 235
+ Processing k-space list for pointing 157 of 235
+ Processing k-space list for pointing 158 of 235
+ Processing k-space list for pointing 159 of 235
+ Processing k-space list for pointing 160 of 235
+ Processing k-space list for pointing 161 of 235
+ Processing k-space list for pointing 162 of 235
+ Processing k-space list for pointing 163 of 235
+ Processing k-space list for pointing 164 of 235
+ Processing k-space list for pointing 165 of 235
+ Processing k-space list for pointing 166 of 235
+ Processing k-space list for pointing 167 of 235
+ Processing k-space list for pointing 168 of 235
+ Processing k-space list for pointing 169 of 235
+ Processing k-space list for pointing 170 of 235
+ Processing k-space list for pointing 171 of 235
+ Processing k-space list for pointing 172 of 235
+ Processing k-space list for pointing 173 of 235
+ Processing k-space list for pointing 174 of 235
+ Processing k-space list for pointing 175 of 235
+ Processing k-space list for pointing 176 of 235
+ Processing k-space list for pointing 177 of 235
+ Processing k-space list for pointing 178 of 235
+ Processing k-space list for pointing 179 of 235
+ Processing k-space list for pointing 180 of 235
+ Processing k-space list for pointing 181 of 235
+ Processing k-space list for pointing 182 of 235
+ Processing k-space list for pointing 183 of 235
+ Processing k-space list for pointing 184 of 235
+ Processing k-space list for pointing 185 of 235
+ Processing k-space list for pointing 186 of 235
+ Processing k-space list for pointing 187 of 235
+ Processing k-space list for pointing 188 of 235
+ Processing k-space list for pointing 189 of 235
+ Processing k-space list for pointing 190 of 235
+ Processing k-space list for pointing 191 of 235
+ Processing k-space list for pointing 192 of 235
+ Processing k-space list for pointing 193 of 235
+ Processing k-space list for pointing 194 of 235
+ Processing k-space list for pointing 195 of 235
+ Processing k-space list for pointing 196 of 235
+ Processing k-space list for pointing 197 of 235
+ Processing k-space list for pointing 198 of 235
+ Processing k-space list for pointing 199 of 235
+ Processing k-space list for pointing 200 of 235
+ Processing k-space list for pointing 201 of 235
+ Processing k-space list for pointing 202 of 235
+ Processing k-space list for pointing 203 of 235
+ Processing k-space list for pointing 204 of 235
+ Processing k-space list for pointing 205 of 235
+ Processing k-space list for pointing 206 of 235
+ Processing k-space list for pointing 207 of 235
+ Processing k-space list for pointing 208 of 235
+ Processing k-space list for pointing 209 of 235
+ Processing k-space list for pointing 210 of 235
+ Processing k-space list for pointing 211 of 235
+ Processing k-space list for pointing 212 of 235
+ Processing k-space list for pointing 213 of 235
+ Processing k-space list for pointing 214 of 235
+ Processing k-space list for pointing 215 of 235
+ Processing k-space list for pointing 216 of 235
+ Processing k-space list for pointing 217 of 235
+ Processing k-space list for pointing 218 of 235
+ Processing k-space list for pointing 219 of 235
+ Processing k-space list for pointing 220 of 235
+ Processing k-space list for pointing 221 of 235
+ Processing k-space list for pointing 222 of 235
+ Processing k-space list for pointing 223 of 235
+ Processing k-space list for pointing 224 of 235
+ Processing k-space list for pointing 225 of 235
+ Processing k-space list for pointing 226 of 235
+ Processing k-space list for pointing 227 of 235
+ Processing k-space list for pointing 228 of 235
+ Processing k-space list for pointing 229 of 235
+ Processing k-space list for pointing 230 of 235
+ Processing k-space list for pointing 231 of 235
+ Processing k-space list for pointing 232 of 235
+ Processing k-space list for pointing 233 of 235
+ Processing k-space list for pointing 234 of 235
+ Processing k-space list for pointing 235 of 235
+
+
+-------------------------------------------------
+ CPU time used by k_make module [s]:    2.6
+-------------------------------------------------
+
+
+ ----------------------------------------------------------------------------------------
+ --- k_clean -- eMPT Contaminated Target Elimination Module Version 1.7 4 December 2021 -
+ ----------------------------------------------------------------------------------------
+
+
+  Reading target input catalog
+
+  Reading pointings to be processed
+
+ Trial Identifier No.:        00
+ Configuration File:          00.conf                                                               
+ Target Catalog:              test_trial_00.cat                                                     
+ n_dither:                    1
+ Total number of targets in input catalog:         13119
+ Number of Priority Classes in input catalog:      20
+ Total number of pointings in configuration file:  235
+ Input k_list file:                                trial_00/k_make_output/k_list_raw.txt                                 
+ Maximum number of targets in k_list per pointing: 1989
+ Maximum allowable contamination scores for Priority Class 1 targets:         100  100  100
+ Maximum allowable contamination scores for all other Priority Class targets: 1  2  2
+
+
+ Processing pointing 1 out of 235
+ 300 out of 1920 targets flagged as contaminated (15.62%) and removed from mask
+ Processing pointing 2 out of 235
+ 297 out of 1927 targets flagged as contaminated (15.41%) and removed from mask
+ Processing pointing 3 out of 235
+ 314 out of 1893 targets flagged as contaminated (16.59%) and removed from mask
+ Processing pointing 4 out of 235
+ 284 out of 1953 targets flagged as contaminated (14.54%) and removed from mask
+ Processing pointing 5 out of 235
+ 270 out of 1919 targets flagged as contaminated (14.07%) and removed from mask
+ Processing pointing 6 out of 235
+ 279 out of 1922 targets flagged as contaminated (14.52%) and removed from mask
+ Processing pointing 7 out of 235
+ 302 out of 1941 targets flagged as contaminated (15.56%) and removed from mask
+ Processing pointing 8 out of 235
+ 300 out of 1958 targets flagged as contaminated (15.32%) and removed from mask
+ Processing pointing 9 out of 235
+ 291 out of 1984 targets flagged as contaminated (14.67%) and removed from mask
+ Processing pointing 10 out of 235
+ 304 out of 1968 targets flagged as contaminated (15.45%) and removed from mask
+ Processing pointing 11 out of 235
+ 297 out of 1960 targets flagged as contaminated (15.15%) and removed from mask
+ Processing pointing 12 out of 235
+ 299 out of 1989 targets flagged as contaminated (15.03%) and removed from mask
+ Processing pointing 13 out of 235
+ 301 out of 1903 targets flagged as contaminated (15.82%) and removed from mask
+ Processing pointing 14 out of 235
+ 298 out of 1950 targets flagged as contaminated (15.28%) and removed from mask
+ Processing pointing 15 out of 235
+ 290 out of 1938 targets flagged as contaminated (14.96%) and removed from mask
+ Processing pointing 16 out of 235
+ 285 out of 1961 targets flagged as contaminated (14.53%) and removed from mask
+ Processing pointing 17 out of 235
+ 286 out of 1925 targets flagged as contaminated (14.86%) and removed from mask
+ Processing pointing 18 out of 235
+ 303 out of 1968 targets flagged as contaminated (15.40%) and removed from mask
+ Processing pointing 19 out of 235
+ 286 out of 1929 targets flagged as contaminated (14.83%) and removed from mask
+ Processing pointing 20 out of 235
+ 259 out of 1918 targets flagged as contaminated (13.50%) and removed from mask
+ Processing pointing 21 out of 235
+ 297 out of 1963 targets flagged as contaminated (15.13%) and removed from mask
+ Processing pointing 22 out of 235
+ 292 out of 1961 targets flagged as contaminated (14.89%) and removed from mask
+ Processing pointing 23 out of 235
+ 305 out of 1930 targets flagged as contaminated (15.80%) and removed from mask
+ Processing pointing 24 out of 235
+ 303 out of 1964 targets flagged as contaminated (15.43%) and removed from mask
+ Processing pointing 25 out of 235
+ 300 out of 1970 targets flagged as contaminated (15.23%) and removed from mask
+ Processing pointing 26 out of 235
+ 297 out of 1942 targets flagged as contaminated (15.29%) and removed from mask
+ Processing pointing 27 out of 235
+ 294 out of 1949 targets flagged as contaminated (15.08%) and removed from mask
+ Processing pointing 28 out of 235
+ 299 out of 1947 targets flagged as contaminated (15.36%) and removed from mask
+ Processing pointing 29 out of 235
+ 293 out of 1932 targets flagged as contaminated (15.17%) and removed from mask
+ Processing pointing 30 out of 235
+ 310 out of 1943 targets flagged as contaminated (15.95%) and removed from mask
+ Processing pointing 31 out of 235
+ 291 out of 1897 targets flagged as contaminated (15.34%) and removed from mask
+ Processing pointing 32 out of 235
+ 291 out of 1948 targets flagged as contaminated (14.94%) and removed from mask
+ Processing pointing 33 out of 235
+ 295 out of 1951 targets flagged as contaminated (15.12%) and removed from mask
+ Processing pointing 34 out of 235
+ 299 out of 1935 targets flagged as contaminated (15.45%) and removed from mask
+ Processing pointing 35 out of 235
+ 286 out of 1962 targets flagged as contaminated (14.58%) and removed from mask
+ Processing pointing 36 out of 235
+ 282 out of 1910 targets flagged as contaminated (14.76%) and removed from mask
+ Processing pointing 37 out of 235
+ 282 out of 1898 targets flagged as contaminated (14.86%) and removed from mask
+ Processing pointing 38 out of 235
+ 277 out of 1908 targets flagged as contaminated (14.52%) and removed from mask
+ Processing pointing 39 out of 235
+ 285 out of 1899 targets flagged as contaminated (15.01%) and removed from mask
+ Processing pointing 40 out of 235
+ 285 out of 1944 targets flagged as contaminated (14.66%) and removed from mask
+ Processing pointing 41 out of 235
+ 284 out of 1924 targets flagged as contaminated (14.76%) and removed from mask
+ Processing pointing 42 out of 235
+ 278 out of 1849 targets flagged as contaminated (15.04%) and removed from mask
+ Processing pointing 43 out of 235
+ 276 out of 1906 targets flagged as contaminated (14.48%) and removed from mask
+ Processing pointing 44 out of 235
+ 281 out of 1930 targets flagged as contaminated (14.56%) and removed from mask
+ Processing pointing 45 out of 235
+ 275 out of 1865 targets flagged as contaminated (14.75%) and removed from mask
+ Processing pointing 46 out of 235
+ 281 out of 1940 targets flagged as contaminated (14.48%) and removed from mask
+ Processing pointing 47 out of 235
+ 284 out of 1932 targets flagged as contaminated (14.70%) and removed from mask
+ Processing pointing 48 out of 235
+ 284 out of 1884 targets flagged as contaminated (15.07%) and removed from mask
+ Processing pointing 49 out of 235
+ 252 out of 1936 targets flagged as contaminated (13.02%) and removed from mask
+ Processing pointing 50 out of 235
+ 260 out of 1922 targets flagged as contaminated (13.53%) and removed from mask
+ Processing pointing 51 out of 235
+ 291 out of 1919 targets flagged as contaminated (15.16%) and removed from mask
+ Processing pointing 52 out of 235
+ 288 out of 1913 targets flagged as contaminated (15.05%) and removed from mask
+ Processing pointing 53 out of 235
+ 293 out of 1929 targets flagged as contaminated (15.19%) and removed from mask
+ Processing pointing 54 out of 235
+ 287 out of 1860 targets flagged as contaminated (15.43%) and removed from mask
+ Processing pointing 55 out of 235
+ 289 out of 1908 targets flagged as contaminated (15.15%) and removed from mask
+ Processing pointing 56 out of 235
+ 289 out of 1930 targets flagged as contaminated (14.97%) and removed from mask
+ Processing pointing 57 out of 235
+ 301 out of 1862 targets flagged as contaminated (16.17%) and removed from mask
+ Processing pointing 58 out of 235
+ 298 out of 1914 targets flagged as contaminated (15.57%) and removed from mask
+ Processing pointing 59 out of 235
+ 291 out of 1905 targets flagged as contaminated (15.28%) and removed from mask
+ Processing pointing 60 out of 235
+ 285 out of 1870 targets flagged as contaminated (15.24%) and removed from mask
+ Processing pointing 61 out of 235
+ 288 out of 1897 targets flagged as contaminated (15.18%) and removed from mask
+ Processing pointing 62 out of 235
+ 289 out of 1897 targets flagged as contaminated (15.23%) and removed from mask
+ Processing pointing 63 out of 235
+ 290 out of 1848 targets flagged as contaminated (15.69%) and removed from mask
+ Processing pointing 64 out of 235
+ 288 out of 1876 targets flagged as contaminated (15.35%) and removed from mask
+ Processing pointing 65 out of 235
+ 294 out of 1881 targets flagged as contaminated (15.63%) and removed from mask
+ Processing pointing 66 out of 235
+ 307 out of 1860 targets flagged as contaminated (16.51%) and removed from mask
+ Processing pointing 67 out of 235
+ 286 out of 1907 targets flagged as contaminated (15.00%) and removed from mask
+ Processing pointing 68 out of 235
+ 288 out of 1917 targets flagged as contaminated (15.02%) and removed from mask
+ Processing pointing 69 out of 235
+ 300 out of 1903 targets flagged as contaminated (15.76%) and removed from mask
+ Processing pointing 70 out of 235
+ 304 out of 1911 targets flagged as contaminated (15.91%) and removed from mask
+ Processing pointing 71 out of 235
+ 277 out of 1909 targets flagged as contaminated (14.51%) and removed from mask
+ Processing pointing 72 out of 235
+ 274 out of 1905 targets flagged as contaminated (14.38%) and removed from mask
+ Processing pointing 73 out of 235
+ 299 out of 1863 targets flagged as contaminated (16.05%) and removed from mask
+ Processing pointing 74 out of 235
+ 292 out of 1899 targets flagged as contaminated (15.38%) and removed from mask
+ Processing pointing 75 out of 235
+ 288 out of 1916 targets flagged as contaminated (15.03%) and removed from mask
+ Processing pointing 76 out of 235
+ 290 out of 1866 targets flagged as contaminated (15.54%) and removed from mask
+ Processing pointing 77 out of 235
+ 285 out of 1842 targets flagged as contaminated (15.47%) and removed from mask
+ Processing pointing 78 out of 235
+ 284 out of 1879 targets flagged as contaminated (15.11%) and removed from mask
+ Processing pointing 79 out of 235
+ 289 out of 1880 targets flagged as contaminated (15.37%) and removed from mask
+ Processing pointing 80 out of 235
+ 281 out of 1864 targets flagged as contaminated (15.08%) and removed from mask
+ Processing pointing 81 out of 235
+ 286 out of 1854 targets flagged as contaminated (15.43%) and removed from mask
+ Processing pointing 82 out of 235
+ 278 out of 1845 targets flagged as contaminated (15.07%) and removed from mask
+ Processing pointing 83 out of 235
+ 275 out of 1825 targets flagged as contaminated (15.07%) and removed from mask
+ Processing pointing 84 out of 235
+ 260 out of 1835 targets flagged as contaminated (14.17%) and removed from mask
+ Processing pointing 85 out of 235
+ 270 out of 1855 targets flagged as contaminated (14.56%) and removed from mask
+ Processing pointing 86 out of 235
+ 276 out of 1855 targets flagged as contaminated (14.88%) and removed from mask
+ Processing pointing 87 out of 235
+ 263 out of 1833 targets flagged as contaminated (14.35%) and removed from mask
+ Processing pointing 88 out of 235
+ 293 out of 1892 targets flagged as contaminated (15.49%) and removed from mask
+ Processing pointing 89 out of 235
+ 275 out of 1835 targets flagged as contaminated (14.99%) and removed from mask
+ Processing pointing 90 out of 235
+ 266 out of 1824 targets flagged as contaminated (14.58%) and removed from mask
+ Processing pointing 91 out of 235
+ 274 out of 1866 targets flagged as contaminated (14.68%) and removed from mask
+ Processing pointing 92 out of 235
+ 264 out of 1836 targets flagged as contaminated (14.38%) and removed from mask
+ Processing pointing 93 out of 235
+ 274 out of 1853 targets flagged as contaminated (14.79%) and removed from mask
+ Processing pointing 94 out of 235
+ 286 out of 1828 targets flagged as contaminated (15.65%) and removed from mask
+ Processing pointing 95 out of 235
+ 284 out of 1814 targets flagged as contaminated (15.66%) and removed from mask
+ Processing pointing 96 out of 235
+ 269 out of 1866 targets flagged as contaminated (14.42%) and removed from mask
+ Processing pointing 97 out of 235
+ 279 out of 1880 targets flagged as contaminated (14.84%) and removed from mask
+ Processing pointing 98 out of 235
+ 275 out of 1871 targets flagged as contaminated (14.70%) and removed from mask
+ Processing pointing 99 out of 235
+ 274 out of 1874 targets flagged as contaminated (14.62%) and removed from mask
+ Processing pointing 100 out of 235
+ 283 out of 1848 targets flagged as contaminated (15.31%) and removed from mask
+ Processing pointing 101 out of 235
+ 271 out of 1829 targets flagged as contaminated (14.82%) and removed from mask
+ Processing pointing 102 out of 235
+ 271 out of 1834 targets flagged as contaminated (14.78%) and removed from mask
+ Processing pointing 103 out of 235
+ 286 out of 1844 targets flagged as contaminated (15.51%) and removed from mask
+ Processing pointing 104 out of 235
+ 274 out of 1845 targets flagged as contaminated (14.85%) and removed from mask
+ Processing pointing 105 out of 235
+ 271 out of 1804 targets flagged as contaminated (15.02%) and removed from mask
+ Processing pointing 106 out of 235
+ 263 out of 1817 targets flagged as contaminated (14.47%) and removed from mask
+ Processing pointing 107 out of 235
+ 282 out of 1864 targets flagged as contaminated (15.13%) and removed from mask
+ Processing pointing 108 out of 235
+ 281 out of 1863 targets flagged as contaminated (15.08%) and removed from mask
+ Processing pointing 109 out of 235
+ 270 out of 1843 targets flagged as contaminated (14.65%) and removed from mask
+ Processing pointing 110 out of 235
+ 283 out of 1819 targets flagged as contaminated (15.56%) and removed from mask
+ Processing pointing 111 out of 235
+ 269 out of 1804 targets flagged as contaminated (14.91%) and removed from mask
+ Processing pointing 112 out of 235
+ 262 out of 1833 targets flagged as contaminated (14.29%) and removed from mask
+ Processing pointing 113 out of 235
+ 265 out of 1843 targets flagged as contaminated (14.38%) and removed from mask
+ Processing pointing 114 out of 235
+ 269 out of 1813 targets flagged as contaminated (14.84%) and removed from mask
+ Processing pointing 115 out of 235
+ 278 out of 1799 targets flagged as contaminated (15.45%) and removed from mask
+ Processing pointing 116 out of 235
+ 274 out of 1786 targets flagged as contaminated (15.34%) and removed from mask
+ Processing pointing 117 out of 235
+ 276 out of 1848 targets flagged as contaminated (14.94%) and removed from mask
+ Processing pointing 118 out of 235
+ 276 out of 1860 targets flagged as contaminated (14.84%) and removed from mask
+ Processing pointing 119 out of 235
+ 258 out of 1846 targets flagged as contaminated (13.98%) and removed from mask
+ Processing pointing 120 out of 235
+ 264 out of 1837 targets flagged as contaminated (14.37%) and removed from mask
+ Processing pointing 121 out of 235
+ 275 out of 1856 targets flagged as contaminated (14.82%) and removed from mask
+ Processing pointing 122 out of 235
+ 278 out of 1856 targets flagged as contaminated (14.98%) and removed from mask
+ Processing pointing 123 out of 235
+ 290 out of 1876 targets flagged as contaminated (15.46%) and removed from mask
+ Processing pointing 124 out of 235
+ 250 out of 1814 targets flagged as contaminated (13.78%) and removed from mask
+ Processing pointing 125 out of 235
+ 247 out of 1827 targets flagged as contaminated (13.52%) and removed from mask
+ Processing pointing 126 out of 235
+ 264 out of 1840 targets flagged as contaminated (14.35%) and removed from mask
+ Processing pointing 127 out of 235
+ 255 out of 1877 targets flagged as contaminated (13.59%) and removed from mask
+ Processing pointing 128 out of 235
+ 251 out of 1880 targets flagged as contaminated (13.35%) and removed from mask
+ Processing pointing 129 out of 235
+ 277 out of 1874 targets flagged as contaminated (14.78%) and removed from mask
+ Processing pointing 130 out of 235
+ 278 out of 1846 targets flagged as contaminated (15.06%) and removed from mask
+ Processing pointing 131 out of 235
+ 270 out of 1843 targets flagged as contaminated (14.65%) and removed from mask
+ Processing pointing 132 out of 235
+ 281 out of 1869 targets flagged as contaminated (15.03%) and removed from mask
+ Processing pointing 133 out of 235
+ 272 out of 1860 targets flagged as contaminated (14.62%) and removed from mask
+ Processing pointing 134 out of 235
+ 252 out of 1825 targets flagged as contaminated (13.81%) and removed from mask
+ Processing pointing 135 out of 235
+ 245 out of 1829 targets flagged as contaminated (13.40%) and removed from mask
+ Processing pointing 136 out of 235
+ 277 out of 1858 targets flagged as contaminated (14.91%) and removed from mask
+ Processing pointing 137 out of 235
+ 259 out of 1842 targets flagged as contaminated (14.06%) and removed from mask
+ Processing pointing 138 out of 235
+ 258 out of 1864 targets flagged as contaminated (13.84%) and removed from mask
+ Processing pointing 139 out of 235
+ 266 out of 1812 targets flagged as contaminated (14.68%) and removed from mask
+ Processing pointing 140 out of 235
+ 263 out of 1823 targets flagged as contaminated (14.43%) and removed from mask
+ Processing pointing 141 out of 235
+ 273 out of 1848 targets flagged as contaminated (14.77%) and removed from mask
+ Processing pointing 142 out of 235
+ 253 out of 1825 targets flagged as contaminated (13.86%) and removed from mask
+ Processing pointing 143 out of 235
+ 249 out of 1801 targets flagged as contaminated (13.83%) and removed from mask
+ Processing pointing 144 out of 235
+ 268 out of 1819 targets flagged as contaminated (14.73%) and removed from mask
+ Processing pointing 145 out of 235
+ 265 out of 1828 targets flagged as contaminated (14.50%) and removed from mask
+ Processing pointing 146 out of 235
+ 258 out of 1832 targets flagged as contaminated (14.08%) and removed from mask
+ Processing pointing 147 out of 235
+ 271 out of 1848 targets flagged as contaminated (14.66%) and removed from mask
+ Processing pointing 148 out of 235
+ 239 out of 1824 targets flagged as contaminated (13.10%) and removed from mask
+ Processing pointing 149 out of 235
+ 247 out of 1844 targets flagged as contaminated (13.39%) and removed from mask
+ Processing pointing 150 out of 235
+ 250 out of 1874 targets flagged as contaminated (13.34%) and removed from mask
+ Processing pointing 151 out of 235
+ 269 out of 1827 targets flagged as contaminated (14.72%) and removed from mask
+ Processing pointing 152 out of 235
+ 260 out of 1797 targets flagged as contaminated (14.47%) and removed from mask
+ Processing pointing 153 out of 235
+ 255 out of 1793 targets flagged as contaminated (14.22%) and removed from mask
+ Processing pointing 154 out of 235
+ 248 out of 1840 targets flagged as contaminated (13.48%) and removed from mask
+ Processing pointing 155 out of 235
+ 243 out of 1835 targets flagged as contaminated (13.24%) and removed from mask
+ Processing pointing 156 out of 235
+ 266 out of 1842 targets flagged as contaminated (14.44%) and removed from mask
+ Processing pointing 157 out of 235
+ 240 out of 1848 targets flagged as contaminated (12.99%) and removed from mask
+ Processing pointing 158 out of 235
+ 246 out of 1834 targets flagged as contaminated (13.41%) and removed from mask
+ Processing pointing 159 out of 235
+ 264 out of 1851 targets flagged as contaminated (14.26%) and removed from mask
+ Processing pointing 160 out of 235
+ 255 out of 1856 targets flagged as contaminated (13.74%) and removed from mask
+ Processing pointing 161 out of 235
+ 264 out of 1804 targets flagged as contaminated (14.63%) and removed from mask
+ Processing pointing 162 out of 235
+ 258 out of 1818 targets flagged as contaminated (14.19%) and removed from mask
+ Processing pointing 163 out of 235
+ 250 out of 1831 targets flagged as contaminated (13.65%) and removed from mask
+ Processing pointing 164 out of 235
+ 264 out of 1834 targets flagged as contaminated (14.39%) and removed from mask
+ Processing pointing 165 out of 235
+ 256 out of 1849 targets flagged as contaminated (13.85%) and removed from mask
+ Processing pointing 166 out of 235
+ 263 out of 1835 targets flagged as contaminated (14.33%) and removed from mask
+ Processing pointing 167 out of 235
+ 253 out of 1822 targets flagged as contaminated (13.89%) and removed from mask
+ Processing pointing 168 out of 235
+ 263 out of 1867 targets flagged as contaminated (14.09%) and removed from mask
+ Processing pointing 169 out of 235
+ 267 out of 1850 targets flagged as contaminated (14.43%) and removed from mask
+ Processing pointing 170 out of 235
+ 268 out of 1817 targets flagged as contaminated (14.75%) and removed from mask
+ Processing pointing 171 out of 235
+ 274 out of 1835 targets flagged as contaminated (14.93%) and removed from mask
+ Processing pointing 172 out of 235
+ 256 out of 1848 targets flagged as contaminated (13.85%) and removed from mask
+ Processing pointing 173 out of 235
+ 287 out of 1880 targets flagged as contaminated (15.27%) and removed from mask
+ Processing pointing 174 out of 235
+ 276 out of 1874 targets flagged as contaminated (14.73%) and removed from mask
+ Processing pointing 175 out of 235
+ 254 out of 1867 targets flagged as contaminated (13.60%) and removed from mask
+ Processing pointing 176 out of 235
+ 243 out of 1777 targets flagged as contaminated (13.67%) and removed from mask
+ Processing pointing 177 out of 235
+ 291 out of 1865 targets flagged as contaminated (15.60%) and removed from mask
+ Processing pointing 178 out of 235
+ 273 out of 1861 targets flagged as contaminated (14.67%) and removed from mask
+ Processing pointing 179 out of 235
+ 260 out of 1855 targets flagged as contaminated (14.02%) and removed from mask
+ Processing pointing 180 out of 235
+ 265 out of 1842 targets flagged as contaminated (14.39%) and removed from mask
+ Processing pointing 181 out of 235
+ 285 out of 1877 targets flagged as contaminated (15.18%) and removed from mask
+ Processing pointing 182 out of 235
+ 282 out of 1863 targets flagged as contaminated (15.14%) and removed from mask
+ Processing pointing 183 out of 235
+ 278 out of 1828 targets flagged as contaminated (15.21%) and removed from mask
+ Processing pointing 184 out of 235
+ 274 out of 1832 targets flagged as contaminated (14.96%) and removed from mask
+ Processing pointing 185 out of 235
+ 282 out of 1885 targets flagged as contaminated (14.96%) and removed from mask
+ Processing pointing 186 out of 235
+ 281 out of 1846 targets flagged as contaminated (15.22%) and removed from mask
+ Processing pointing 187 out of 235
+ 266 out of 1810 targets flagged as contaminated (14.70%) and removed from mask
+ Processing pointing 188 out of 235
+ 277 out of 1814 targets flagged as contaminated (15.27%) and removed from mask
+ Processing pointing 189 out of 235
+ 253 out of 1806 targets flagged as contaminated (14.01%) and removed from mask
+ Processing pointing 190 out of 235
+ 277 out of 1836 targets flagged as contaminated (15.09%) and removed from mask
+ Processing pointing 191 out of 235
+ 280 out of 1857 targets flagged as contaminated (15.08%) and removed from mask
+ Processing pointing 192 out of 235
+ 259 out of 1818 targets flagged as contaminated (14.25%) and removed from mask
+ Processing pointing 193 out of 235
+ 260 out of 1797 targets flagged as contaminated (14.47%) and removed from mask
+ Processing pointing 194 out of 235
+ 261 out of 1801 targets flagged as contaminated (14.49%) and removed from mask
+ Processing pointing 195 out of 235
+ 278 out of 1843 targets flagged as contaminated (15.08%) and removed from mask
+ Processing pointing 196 out of 235
+ 257 out of 1822 targets flagged as contaminated (14.11%) and removed from mask
+ Processing pointing 197 out of 235
+ 271 out of 1828 targets flagged as contaminated (14.82%) and removed from mask
+ Processing pointing 198 out of 235
+ 264 out of 1826 targets flagged as contaminated (14.46%) and removed from mask
+ Processing pointing 199 out of 235
+ 275 out of 1858 targets flagged as contaminated (14.80%) and removed from mask
+ Processing pointing 200 out of 235
+ 274 out of 1848 targets flagged as contaminated (14.83%) and removed from mask
+ Processing pointing 201 out of 235
+ 264 out of 1828 targets flagged as contaminated (14.44%) and removed from mask
+ Processing pointing 202 out of 235
+ 264 out of 1814 targets flagged as contaminated (14.55%) and removed from mask
+ Processing pointing 203 out of 235
+ 273 out of 1831 targets flagged as contaminated (14.91%) and removed from mask
+ Processing pointing 204 out of 235
+ 278 out of 1838 targets flagged as contaminated (15.13%) and removed from mask
+ Processing pointing 205 out of 235
+ 279 out of 1870 targets flagged as contaminated (14.92%) and removed from mask
+ Processing pointing 206 out of 235
+ 281 out of 1877 targets flagged as contaminated (14.97%) and removed from mask
+ Processing pointing 207 out of 235
+ 264 out of 1810 targets flagged as contaminated (14.59%) and removed from mask
+ Processing pointing 208 out of 235
+ 272 out of 1809 targets flagged as contaminated (15.04%) and removed from mask
+ Processing pointing 209 out of 235
+ 262 out of 1791 targets flagged as contaminated (14.63%) and removed from mask
+ Processing pointing 210 out of 235
+ 282 out of 1846 targets flagged as contaminated (15.28%) and removed from mask
+ Processing pointing 211 out of 235
+ 275 out of 1818 targets flagged as contaminated (15.13%) and removed from mask
+ Processing pointing 212 out of 235
+ 265 out of 1797 targets flagged as contaminated (14.75%) and removed from mask
+ Processing pointing 213 out of 235
+ 286 out of 1857 targets flagged as contaminated (15.40%) and removed from mask
+ Processing pointing 214 out of 235
+ 270 out of 1795 targets flagged as contaminated (15.04%) and removed from mask
+ Processing pointing 215 out of 235
+ 265 out of 1787 targets flagged as contaminated (14.83%) and removed from mask
+ Processing pointing 216 out of 235
+ 276 out of 1813 targets flagged as contaminated (15.22%) and removed from mask
+ Processing pointing 217 out of 235
+ 276 out of 1831 targets flagged as contaminated (15.07%) and removed from mask
+ Processing pointing 218 out of 235
+ 258 out of 1808 targets flagged as contaminated (14.27%) and removed from mask
+ Processing pointing 219 out of 235
+ 264 out of 1823 targets flagged as contaminated (14.48%) and removed from mask
+ Processing pointing 220 out of 235
+ 260 out of 1796 targets flagged as contaminated (14.48%) and removed from mask
+ Processing pointing 221 out of 235
+ 250 out of 1806 targets flagged as contaminated (13.84%) and removed from mask
+ Processing pointing 222 out of 235
+ 254 out of 1792 targets flagged as contaminated (14.17%) and removed from mask
+ Processing pointing 223 out of 235
+ 272 out of 1839 targets flagged as contaminated (14.79%) and removed from mask
+ Processing pointing 224 out of 235
+ 265 out of 1849 targets flagged as contaminated (14.33%) and removed from mask
+ Processing pointing 225 out of 235
+ 271 out of 1831 targets flagged as contaminated (14.80%) and removed from mask
+ Processing pointing 226 out of 235
+ 275 out of 1810 targets flagged as contaminated (15.19%) and removed from mask
+ Processing pointing 227 out of 235
+ 267 out of 1787 targets flagged as contaminated (14.94%) and removed from mask
+ Processing pointing 228 out of 235
+ 288 out of 1933 targets flagged as contaminated (14.90%) and removed from mask
+ Processing pointing 229 out of 235
+ 292 out of 1942 targets flagged as contaminated (15.04%) and removed from mask
+ Processing pointing 230 out of 235
+ 298 out of 1928 targets flagged as contaminated (15.46%) and removed from mask
+ Processing pointing 231 out of 235
+ 266 out of 1836 targets flagged as contaminated (14.49%) and removed from mask
+ Processing pointing 232 out of 235
+ 281 out of 1855 targets flagged as contaminated (15.15%) and removed from mask
+ Processing pointing 233 out of 235
+ 258 out of 1800 targets flagged as contaminated (14.33%) and removed from mask
+ Processing pointing 234 out of 235
+ 278 out of 1865 targets flagged as contaminated (14.91%) and removed from mask
+ Processing pointing 235 out of 235
+ 265 out of 1828 targets flagged as contaminated (14.50%) and removed from mask
+
+------------------------------------------------
+ CPU time used by k_clean module [s]:    6.2
+------------------------------------------------
+
+
+ -------------------------------------------------------------------------------------------
+ --- m_make -- eMPT Arribas Algorithm m-list Generation Module Version 2.0 4 August 2022 ---
+ -------------------------------------------------------------------------------------------
+
+
+ Trial Identifier No.:        00
+ Configuration File:          00.conf                                                               
+ n_dither:                    1
+ Number of Priority Classes in input catalog:      20
+ Total number of pointings in configuration file:  235
+ Modified input k_list file:                       trial_00/k_clean_output/k_list_mod.txt                                
+ Maximum number of targets in k_list per pointing: 1989
+
+
+ Number of single pointings: 235
+ Number of Priority Classes: 20
+
+ Processing single pointing 1 of 235
+ Processing single pointing 2 of 235
+ Processing single pointing 3 of 235
+ Processing single pointing 4 of 235
+ Processing single pointing 5 of 235
+ Processing single pointing 6 of 235
+ Processing single pointing 7 of 235
+ Processing single pointing 8 of 235
+ Processing single pointing 9 of 235
+ Processing single pointing 10 of 235
+ Processing single pointing 11 of 235
+ Processing single pointing 12 of 235
+ Processing single pointing 13 of 235
+ Processing single pointing 14 of 235
+ Processing single pointing 15 of 235
+ Processing single pointing 16 of 235
+ Processing single pointing 17 of 235
+ Processing single pointing 18 of 235
+ Processing single pointing 19 of 235
+ Processing single pointing 20 of 235
+ Processing single pointing 21 of 235
+ Processing single pointing 22 of 235
+ Processing single pointing 23 of 235
+ Processing single pointing 24 of 235
+ Processing single pointing 25 of 235
+ Processing single pointing 26 of 235
+ Processing single pointing 27 of 235
+ Processing single pointing 28 of 235
+ Processing single pointing 29 of 235
+ Processing single pointing 30 of 235
+ Processing single pointing 31 of 235
+ Processing single pointing 32 of 235
+ Processing single pointing 33 of 235
+ Processing single pointing 34 of 235
+ Processing single pointing 35 of 235
+ Processing single pointing 36 of 235
+ Processing single pointing 37 of 235
+ Processing single pointing 38 of 235
+ Processing single pointing 39 of 235
+ Processing single pointing 40 of 235
+ Processing single pointing 41 of 235
+ Processing single pointing 42 of 235
+ Processing single pointing 43 of 235
+ Processing single pointing 44 of 235
+ Processing single pointing 45 of 235
+ Processing single pointing 46 of 235
+ Processing single pointing 47 of 235
+ Processing single pointing 48 of 235
+ Processing single pointing 49 of 235
+ Processing single pointing 50 of 235
+ Processing single pointing 51 of 235
+ Processing single pointing 52 of 235
+ Processing single pointing 53 of 235
+ Processing single pointing 54 of 235
+ Processing single pointing 55 of 235
+ Processing single pointing 56 of 235
+ Processing single pointing 57 of 235
+ Processing single pointing 58 of 235
+ Processing single pointing 59 of 235
+ Processing single pointing 60 of 235
+ Processing single pointing 61 of 235
+ Processing single pointing 62 of 235
+ Processing single pointing 63 of 235
+ Processing single pointing 64 of 235
+ Processing single pointing 65 of 235
+ Processing single pointing 66 of 235
+ Processing single pointing 67 of 235
+ Processing single pointing 68 of 235
+ Processing single pointing 69 of 235
+ Processing single pointing 70 of 235
+ Processing single pointing 71 of 235
+ Processing single pointing 72 of 235
+ Processing single pointing 73 of 235
+ Processing single pointing 74 of 235
+ Processing single pointing 75 of 235
+ Processing single pointing 76 of 235
+ Processing single pointing 77 of 235
+ Processing single pointing 78 of 235
+ Processing single pointing 79 of 235
+ Processing single pointing 80 of 235
+ Processing single pointing 81 of 235
+ Processing single pointing 82 of 235
+ Processing single pointing 83 of 235
+ Processing single pointing 84 of 235
+ Processing single pointing 85 of 235
+ Processing single pointing 86 of 235
+ Processing single pointing 87 of 235
+ Processing single pointing 88 of 235
+ Processing single pointing 89 of 235
+ Processing single pointing 90 of 235
+ Processing single pointing 91 of 235
+ Processing single pointing 92 of 235
+ Processing single pointing 93 of 235
+ Processing single pointing 94 of 235
+ Processing single pointing 95 of 235
+ Processing single pointing 96 of 235
+ Processing single pointing 97 of 235
+ Processing single pointing 98 of 235
+ Processing single pointing 99 of 235
+ Processing single pointing 100 of 235
+ Processing single pointing 101 of 235
+ Processing single pointing 102 of 235
+ Processing single pointing 103 of 235
+ Processing single pointing 104 of 235
+ Processing single pointing 105 of 235
+ Processing single pointing 106 of 235
+ Processing single pointing 107 of 235
+ Processing single pointing 108 of 235
+ Processing single pointing 109 of 235
+ Processing single pointing 110 of 235
+ Processing single pointing 111 of 235
+ Processing single pointing 112 of 235
+ Processing single pointing 113 of 235
+ Processing single pointing 114 of 235
+ Processing single pointing 115 of 235
+ Processing single pointing 116 of 235
+ Processing single pointing 117 of 235
+ Processing single pointing 118 of 235
+ Processing single pointing 119 of 235
+ Processing single pointing 120 of 235
+ Processing single pointing 121 of 235
+ Processing single pointing 122 of 235
+ Processing single pointing 123 of 235
+ Processing single pointing 124 of 235
+ Processing single pointing 125 of 235
+ Processing single pointing 126 of 235
+ Processing single pointing 127 of 235
+ Processing single pointing 128 of 235
+ Processing single pointing 129 of 235
+ Processing single pointing 130 of 235
+ Processing single pointing 131 of 235
+ Processing single pointing 132 of 235
+ Processing single pointing 133 of 235
+ Processing single pointing 134 of 235
+ Processing single pointing 135 of 235
+ Processing single pointing 136 of 235
+ Processing single pointing 137 of 235
+ Processing single pointing 138 of 235
+ Processing single pointing 139 of 235
+ Processing single pointing 140 of 235
+ Processing single pointing 141 of 235
+ Processing single pointing 142 of 235
+ Processing single pointing 143 of 235
+ Processing single pointing 144 of 235
+ Processing single pointing 145 of 235
+ Processing single pointing 146 of 235
+ Processing single pointing 147 of 235
+ Processing single pointing 148 of 235
+ Processing single pointing 149 of 235
+ Processing single pointing 150 of 235
+ Processing single pointing 151 of 235
+ Processing single pointing 152 of 235
+ Processing single pointing 153 of 235
+ Processing single pointing 154 of 235
+ Processing single pointing 155 of 235
+ Processing single pointing 156 of 235
+ Processing single pointing 157 of 235
+ Processing single pointing 158 of 235
+ Processing single pointing 159 of 235
+ Processing single pointing 160 of 235
+ Processing single pointing 161 of 235
+ Processing single pointing 162 of 235
+ Processing single pointing 163 of 235
+ Processing single pointing 164 of 235
+ Processing single pointing 165 of 235
+ Processing single pointing 166 of 235
+ Processing single pointing 167 of 235
+ Processing single pointing 168 of 235
+ Processing single pointing 169 of 235
+ Processing single pointing 170 of 235
+ Processing single pointing 171 of 235
+ Processing single pointing 172 of 235
+ Processing single pointing 173 of 235
+ Processing single pointing 174 of 235
+ Processing single pointing 175 of 235
+ Processing single pointing 176 of 235
+ Processing single pointing 177 of 235
+ Processing single pointing 178 of 235
+ Processing single pointing 179 of 235
+ Processing single pointing 180 of 235
+ Processing single pointing 181 of 235
+ Processing single pointing 182 of 235
+ Processing single pointing 183 of 235
+ Processing single pointing 184 of 235
+ Processing single pointing 185 of 235
+ Processing single pointing 186 of 235
+ Processing single pointing 187 of 235
+ Processing single pointing 188 of 235
+ Processing single pointing 189 of 235
+ Processing single pointing 190 of 235
+ Processing single pointing 191 of 235
+ Processing single pointing 192 of 235
+ Processing single pointing 193 of 235
+ Processing single pointing 194 of 235
+ Processing single pointing 195 of 235
+ Processing single pointing 196 of 235
+ Processing single pointing 197 of 235
+ Processing single pointing 198 of 235
+ Processing single pointing 199 of 235
+ Processing single pointing 200 of 235
+ Processing single pointing 201 of 235
+ Processing single pointing 202 of 235
+ Processing single pointing 203 of 235
+ Processing single pointing 204 of 235
+ Processing single pointing 205 of 235
+ Processing single pointing 206 of 235
+ Processing single pointing 207 of 235
+ Processing single pointing 208 of 235
+ Processing single pointing 209 of 235
+ Processing single pointing 210 of 235
+ Processing single pointing 211 of 235
+ Processing single pointing 212 of 235
+ Processing single pointing 213 of 235
+ Processing single pointing 214 of 235
+ Processing single pointing 215 of 235
+ Processing single pointing 216 of 235
+ Processing single pointing 217 of 235
+ Processing single pointing 218 of 235
+ Processing single pointing 219 of 235
+ Processing single pointing 220 of 235
+ Processing single pointing 221 of 235
+ Processing single pointing 222 of 235
+ Processing single pointing 223 of 235
+ Processing single pointing 224 of 235
+ Processing single pointing 225 of 235
+ Processing single pointing 226 of 235
+ Processing single pointing 227 of 235
+ Processing single pointing 228 of 235
+ Processing single pointing 229 of 235
+ Processing single pointing 230 of 235
+ Processing single pointing 231 of 235
+ Processing single pointing 232 of 235
+ Processing single pointing 233 of 235
+ Processing single pointing 234 of 235
+ Processing single pointing 235 of 235
+
+
+------------------------------------------------
+ CPU time used by m_make module [s]:   55.1
+------------------------------------------------
+
+
+ -----------------------------------------------------------------------------------------
+ --- m_sort -- eMPT General Dithered m-list Sorting Module Version 1.7 26 September 2022 -
+ -----------------------------------------------------------------------------------------
+
+
+ Trial Identifier No.:        00
+ Configuration File:          00.conf                                                               
+ n_dither:                    1
+ Number of Priority Classes in input catalog:      20
+ Total number of pointings in configuration file:  0
+ m_list file:                                      trial_00/m_make_output/single_m_list.txt                              
+ Maximum number of targets in m_list per pointing: 165
+
+
+ Number of single pointings:       235
+
+
+ Processing m-space single pointing 1 of 235
+ Processing m-space single pointing 2 of 235
+ Processing m-space single pointing 3 of 235
+ Processing m-space single pointing 4 of 235
+ Processing m-space single pointing 5 of 235
+ Processing m-space single pointing 6 of 235
+ Processing m-space single pointing 7 of 235
+ Processing m-space single pointing 8 of 235
+ Processing m-space single pointing 9 of 235
+ Processing m-space single pointing 10 of 235
+ Processing m-space single pointing 11 of 235
+ Processing m-space single pointing 12 of 235
+ Processing m-space single pointing 13 of 235
+ Processing m-space single pointing 14 of 235
+ Processing m-space single pointing 15 of 235
+ Processing m-space single pointing 16 of 235
+ Processing m-space single pointing 17 of 235
+ Processing m-space single pointing 18 of 235
+ Processing m-space single pointing 19 of 235
+ Processing m-space single pointing 20 of 235
+ Processing m-space single pointing 21 of 235
+ Processing m-space single pointing 22 of 235
+ Processing m-space single pointing 23 of 235
+ Processing m-space single pointing 24 of 235
+ Processing m-space single pointing 25 of 235
+ Processing m-space single pointing 26 of 235
+ Processing m-space single pointing 27 of 235
+ Processing m-space single pointing 28 of 235
+ Processing m-space single pointing 29 of 235
+ Processing m-space single pointing 30 of 235
+ Processing m-space single pointing 31 of 235
+ Processing m-space single pointing 32 of 235
+ Processing m-space single pointing 33 of 235
+ Processing m-space single pointing 34 of 235
+ Processing m-space single pointing 35 of 235
+ Processing m-space single pointing 36 of 235
+ Processing m-space single pointing 37 of 235
+ Processing m-space single pointing 38 of 235
+ Processing m-space single pointing 39 of 235
+ Processing m-space single pointing 40 of 235
+ Processing m-space single pointing 41 of 235
+ Processing m-space single pointing 42 of 235
+ Processing m-space single pointing 43 of 235
+ Processing m-space single pointing 44 of 235
+ Processing m-space single pointing 45 of 235
+ Processing m-space single pointing 46 of 235
+ Processing m-space single pointing 47 of 235
+ Processing m-space single pointing 48 of 235
+ Processing m-space single pointing 49 of 235
+ Processing m-space single pointing 50 of 235
+ Processing m-space single pointing 51 of 235
+ Processing m-space single pointing 52 of 235
+ Processing m-space single pointing 53 of 235
+ Processing m-space single pointing 54 of 235
+ Processing m-space single pointing 55 of 235
+ Processing m-space single pointing 56 of 235
+ Processing m-space single pointing 57 of 235
+ Processing m-space single pointing 58 of 235
+ Processing m-space single pointing 59 of 235
+ Processing m-space single pointing 60 of 235
+ Processing m-space single pointing 61 of 235
+ Processing m-space single pointing 62 of 235
+ Processing m-space single pointing 63 of 235
+ Processing m-space single pointing 64 of 235
+ Processing m-space single pointing 65 of 235
+ Processing m-space single pointing 66 of 235
+ Processing m-space single pointing 67 of 235
+ Processing m-space single pointing 68 of 235
+ Processing m-space single pointing 69 of 235
+ Processing m-space single pointing 70 of 235
+ Processing m-space single pointing 71 of 235
+ Processing m-space single pointing 72 of 235
+ Processing m-space single pointing 73 of 235
+ Processing m-space single pointing 74 of 235
+ Processing m-space single pointing 75 of 235
+ Processing m-space single pointing 76 of 235
+ Processing m-space single pointing 77 of 235
+ Processing m-space single pointing 78 of 235
+ Processing m-space single pointing 79 of 235
+ Processing m-space single pointing 80 of 235
+ Processing m-space single pointing 81 of 235
+ Processing m-space single pointing 82 of 235
+ Processing m-space single pointing 83 of 235
+ Processing m-space single pointing 84 of 235
+ Processing m-space single pointing 85 of 235
+ Processing m-space single pointing 86 of 235
+ Processing m-space single pointing 87 of 235
+ Processing m-space single pointing 88 of 235
+ Processing m-space single pointing 89 of 235
+ Processing m-space single pointing 90 of 235
+ Processing m-space single pointing 91 of 235
+ Processing m-space single pointing 92 of 235
+ Processing m-space single pointing 93 of 235
+ Processing m-space single pointing 94 of 235
+ Processing m-space single pointing 95 of 235
+ Processing m-space single pointing 96 of 235
+ Processing m-space single pointing 97 of 235
+ Processing m-space single pointing 98 of 235
+ Processing m-space single pointing 99 of 235
+ Processing m-space single pointing 100 of 235
+ Processing m-space single pointing 101 of 235
+ Processing m-space single pointing 102 of 235
+ Processing m-space single pointing 103 of 235
+ Processing m-space single pointing 104 of 235
+ Processing m-space single pointing 105 of 235
+ Processing m-space single pointing 106 of 235
+ Processing m-space single pointing 107 of 235
+ Processing m-space single pointing 108 of 235
+ Processing m-space single pointing 109 of 235
+ Processing m-space single pointing 110 of 235
+ Processing m-space single pointing 111 of 235
+ Processing m-space single pointing 112 of 235
+ Processing m-space single pointing 113 of 235
+ Processing m-space single pointing 114 of 235
+ Processing m-space single pointing 115 of 235
+ Processing m-space single pointing 116 of 235
+ Processing m-space single pointing 117 of 235
+ Processing m-space single pointing 118 of 235
+ Processing m-space single pointing 119 of 235
+ Processing m-space single pointing 120 of 235
+ Processing m-space single pointing 121 of 235
+ Processing m-space single pointing 122 of 235
+ Processing m-space single pointing 123 of 235
+ Processing m-space single pointing 124 of 235
+ Processing m-space single pointing 125 of 235
+ Processing m-space single pointing 126 of 235
+ Processing m-space single pointing 127 of 235
+ Processing m-space single pointing 128 of 235
+ Processing m-space single pointing 129 of 235
+ Processing m-space single pointing 130 of 235
+ Processing m-space single pointing 131 of 235
+ Processing m-space single pointing 132 of 235
+ Processing m-space single pointing 133 of 235
+ Processing m-space single pointing 134 of 235
+ Processing m-space single pointing 135 of 235
+ Processing m-space single pointing 136 of 235
+ Processing m-space single pointing 137 of 235
+ Processing m-space single pointing 138 of 235
+ Processing m-space single pointing 139 of 235
+ Processing m-space single pointing 140 of 235
+ Processing m-space single pointing 141 of 235
+ Processing m-space single pointing 142 of 235
+ Processing m-space single pointing 143 of 235
+ Processing m-space single pointing 144 of 235
+ Processing m-space single pointing 145 of 235
+ Processing m-space single pointing 146 of 235
+ Processing m-space single pointing 147 of 235
+ Processing m-space single pointing 148 of 235
+ Processing m-space single pointing 149 of 235
+ Processing m-space single pointing 150 of 235
+ Processing m-space single pointing 151 of 235
+ Processing m-space single pointing 152 of 235
+ Processing m-space single pointing 153 of 235
+ Processing m-space single pointing 154 of 235
+ Processing m-space single pointing 155 of 235
+ Processing m-space single pointing 156 of 235
+ Processing m-space single pointing 157 of 235
+ Processing m-space single pointing 158 of 235
+ Processing m-space single pointing 159 of 235
+ Processing m-space single pointing 160 of 235
+ Processing m-space single pointing 161 of 235
+ Processing m-space single pointing 162 of 235
+ Processing m-space single pointing 163 of 235
+ Processing m-space single pointing 164 of 235
+ Processing m-space single pointing 165 of 235
+ Processing m-space single pointing 166 of 235
+ Processing m-space single pointing 167 of 235
+ Processing m-space single pointing 168 of 235
+ Processing m-space single pointing 169 of 235
+ Processing m-space single pointing 170 of 235
+ Processing m-space single pointing 171 of 235
+ Processing m-space single pointing 172 of 235
+ Processing m-space single pointing 173 of 235
+ Processing m-space single pointing 174 of 235
+ Processing m-space single pointing 175 of 235
+ Processing m-space single pointing 176 of 235
+ Processing m-space single pointing 177 of 235
+ Processing m-space single pointing 178 of 235
+ Processing m-space single pointing 179 of 235
+ Processing m-space single pointing 180 of 235
+ Processing m-space single pointing 181 of 235
+ Processing m-space single pointing 182 of 235
+ Processing m-space single pointing 183 of 235
+ Processing m-space single pointing 184 of 235
+ Processing m-space single pointing 185 of 235
+ Processing m-space single pointing 186 of 235
+ Processing m-space single pointing 187 of 235
+ Processing m-space single pointing 188 of 235
+ Processing m-space single pointing 189 of 235
+ Processing m-space single pointing 190 of 235
+ Processing m-space single pointing 191 of 235
+ Processing m-space single pointing 192 of 235
+ Processing m-space single pointing 193 of 235
+ Processing m-space single pointing 194 of 235
+ Processing m-space single pointing 195 of 235
+ Processing m-space single pointing 196 of 235
+ Processing m-space single pointing 197 of 235
+ Processing m-space single pointing 198 of 235
+ Processing m-space single pointing 199 of 235
+ Processing m-space single pointing 200 of 235
+ Processing m-space single pointing 201 of 235
+ Processing m-space single pointing 202 of 235
+ Processing m-space single pointing 203 of 235
+ Processing m-space single pointing 204 of 235
+ Processing m-space single pointing 205 of 235
+ Processing m-space single pointing 206 of 235
+ Processing m-space single pointing 207 of 235
+ Processing m-space single pointing 208 of 235
+ Processing m-space single pointing 209 of 235
+ Processing m-space single pointing 210 of 235
+ Processing m-space single pointing 211 of 235
+ Processing m-space single pointing 212 of 235
+ Processing m-space single pointing 213 of 235
+ Processing m-space single pointing 214 of 235
+ Processing m-space single pointing 215 of 235
+ Processing m-space single pointing 216 of 235
+ Processing m-space single pointing 217 of 235
+ Processing m-space single pointing 218 of 235
+ Processing m-space single pointing 219 of 235
+ Processing m-space single pointing 220 of 235
+ Processing m-space single pointing 221 of 235
+ Processing m-space single pointing 222 of 235
+ Processing m-space single pointing 223 of 235
+ Processing m-space single pointing 224 of 235
+ Processing m-space single pointing 225 of 235
+ Processing m-space single pointing 226 of 235
+ Processing m-space single pointing 227 of 235
+ Processing m-space single pointing 228 of 235
+ Processing m-space single pointing 229 of 235
+ Processing m-space single pointing 230 of 235
+ Processing m-space single pointing 231 of 235
+ Processing m-space single pointing 232 of 235
+ Processing m-space single pointing 233 of 235
+ Processing m-space single pointing 234 of 235
+ Processing m-space single pointing 235 of 235
+
+ FOM2: Total weighted number of targets observed
+ Highest FOM2 single pointings:
+           Pointing   FOM2
+    100    100     8.03851
+    116    116     7.83266
+    106    106     7.69332
+    111    111     7.67813
+    123    123     7.64708
+     83     83     7.59984
+    122    122     7.58675
+     87     87     7.55332
+    174    174     7.54103
+    103    103     7.53797
+
+ Lowest FOM2 single pointings:
+           Pointing   FOM2
+    228    228     5.47541
+    229    229     5.69665
+    230    230     5.72587
+    231    231     5.82191
+     11     11     5.85054
+    227    227     6.01447
+     31     31     6.03778
+     18     18     6.03811
+    194    194     6.04108
+     27     27     6.05502
+
+
+----------------------------------------------
+ CPU time used by m_sort module [s]:    0.1
+----------------------------------------------
+
+
+ -----------------------------------------------------------------------------------------
+ --- m_pick -- eMPT General Dithered m-list Parsing Module Version 2.4 29 October 2022 ---
+ -----------------------------------------------------------------------------------------
+
+
+ Trial Identifier No.:        00
+ Configuration File:          00.conf                                                               
+ n_dither:                    1
+ Number of targets in input catalog:               13119
+ Number of Priority Classes in input catalog:      20
+ Total number of pointings in configuration file:  235
+ m_list file:                                      trial_00/m_make_output/single_m_list.txt                              
+ Maximum number of targets in m_list per pointing: 165
+ Target optimal single/pair/triple pointing:       100
+
+
+ Constructing catalog(s) of observed targets
+
+ Creating output directories
+
+ Placing Sky Background Slitlets in un-used shutters (patience please)
+
+ 0 Sky Background slitlets added to the IPA Pointing 100 MSA Mask
+
+ Analyzing combined observed target sample
+
+ Target breakdown by Priority Class:
+
+   Pri    Number
+    1       4
+    2       1
+    3       1
+    4      24
+    5       2
+    6       2
+    7       5
+    8       0
+    9       0
+   10       0
+   11       1
+   12      24
+   13      25
+   14      22
+   15      19
+   16       0
+   17       9
+   18      12
+   19       0
+   20       4
+  Tot     155
+
+ Generating spectral trace plots
+
+
+-------------------------------------------------
+ CPU time used by m_pick module [s]:    3.2
+-------------------------------------------------
+
+
+ -------------------------------------------------------------------------------
+ --- m_check - final m-list Spoiler Check Module Version 1.7  24 October 2022 --
+ -------------------------------------------------------------------------------
+
+
+ Trial Identifier No.:        00
+ Configuration File:          00.conf                                                               
+ n_dither:                    1
+ Number of targets in input catalog:               13119
+ Number of Priority Classes in input catalog:      20
+ Total number of pointings in configuration file:  235
+ m_list file:                                      trial_00/m_make_output/single_m_list.txt                              
+ Maximum number of targets in m_list per pointing: 165
+ Target optimal single/pair/triple pointing:       100
+
+
+ m-list file located and read in
+
+-------------------------------------------------
+ CPU time used by m_check module [s]:    0.5
+-------------------------------------------------
+
+
+ --------------------------------------------------------------------------------------------
+ --- m_check_regions - additional m-list Spoiler Check Module Version 1.7 4 August 2022 --=--
+ --------------------------------------------------------------------------------------------
+
+
+ Trial Identifier No.:        00
+ Configuration File:          00.conf                                                               
+ n_dither:                    1
+ Number of targets in input catalog:               13119
+ Number of Priority Classes in input catalog:      20
+ Total number of pointings in configuration file:  235
+ m_list file:                                      trial_00/m_make_output/single_m_list.txt                              
+ Maximum number of targets in m_list per pointing: 165
+ Target optimal single/pair/triple pointing:       100
+
+
+ m-list file located and read in
+
+  Shutter score file not found - shutter regions will not be color-coded
+       Run m_check_shutter_scores module first if needed     
+
+
+---------------------------------------------------------
+ CPU time used by m_check_regions module [s]:    0.2
+---------------------------------------------------------
+

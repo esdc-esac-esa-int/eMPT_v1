@@ -1,0 +1,40 @@
+
+ Slitmap statistics at start:
+
+ Slitlets censored due to FO ovlp:           0
+ Slitlets censored by PRISM Trunc:           0
+ Slitlets censored by target ovlp:           0
+ Shutters commanded open:                    0
+ Remaining viable 3-slitlets:           151911
+ Remaining viable 2-slitlets:            43549
+ Remaining viable 1-slitlets:            13511
+ Number 0-slitlets:                      40667
+ Number of failed open shutters:            22
+ Shutter count checksum:           0
+
+ Slitmap after FO overlap and PRISM truncation purge:
+
+ Slitlets censored due to FO ovlp:       19738
+ Slitlets censored by PRISM Trunc:       41951
+ Slitlets censored by target ovlp:           0
+ Shutters commanded open:                    0
+ Remaining viable 3-slitlets:           108256
+ Remaining viable 2-slitlets:            29969
+ Remaining viable 1-slitlets:             9057
+ Number 0-slitlets:                      40667
+ Number of failed open shutters:            22
+ Shutter count checksum:           0
+
+ Slitmap after target placement:
+
+ Slitlets censored due to FO ovlp:       19727
+ Slitlets censored by PRISM Trunc:       41951
+ Slitlets censored by target ovlp:      139020
+ Shutters commanded open:                  465
+ Remaining viable 3-slitlets:             2072
+ Remaining viable 2-slitlets:             3325
+ Remaining viable 1-slitlets:             2411
+ Number 0-slitlets:                      40667
+ Number of failed open shutters:            22
+ Shutter count checksum:           0
+
