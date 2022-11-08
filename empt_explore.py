@@ -1,5 +1,5 @@
 import numpy as np 
-import sys,time, os, subprocess
+import sys,time,os,subprocess
 
 def execute(name, confname):
         
@@ -7,7 +7,7 @@ def execute(name, confname):
     c = subprocess.call(shell_command, shell=True)
 
     if int(c) > 0:
-      raise IOError('The Fotran '+name+' module failed to execute.')
+      raise IOError('The Fortran '+name+' module failed to execute.')
 
 
 def parse_config_file(confname):
@@ -26,7 +26,6 @@ def parse_config_file(confname):
             pars.append(line)
             pars_ind.append(i)
            
-       
        inpars["n_trial"]      = pars[0] 
        inpars["disperser"]    = pars[1]
        inpars["raccx"]        = pars[2].split(" ")[0]
@@ -79,14 +78,14 @@ def edit_config_file(confname,n_trial,contents_arr,inpars,pars_ind,user_args=Non
 
 if __name__ == "__main__":
   
- # The eMPT is written in Fortran due to its superior ability to handle computationally tasks, very quickly.
+ # The eMPT is written in Fortran due to its superior ability to handle computationally intensive tasks, very quickly.
  #
  # For users who are comfortable with Python and who wish to run the software automatically in many repeated
  # trial runs to explore the eMPT parameters space, we provide this template script with an example 'for' loop
  # that can easily be adapted to the user's specific needs.
  #
- # If you choose to run this script for a single trial --  as opposed to editing the 'for' loop starting at line 214
- # to run through many trials with parameter settings changing with each pass through the loop -- then EITHER enter the
+ # If you choose to run this script for a single trial --  as opposed to editing the 'for' loop starting at line 225
+ # to run through many trials, with parameter settings changing with each pass through the loop -- then EITHER enter the
  # required parameter values plus any additional preferred changes to template.conf, provided with the eMPT package; OR
  # specify them on the command line, as shown below.
  #
@@ -100,7 +99,7 @@ if __name__ == "__main__":
  #
  # OPTION 1: Batch mode
  #
- #  Uncomment and edit the example 'for' loop starting on line 214 of this script to define the batch of trials you would like to run.
+ #  Uncomment and edit the example 'for' loop starting on line 225 of this script to define the batch of trials you would like to run.
  #  Define the starting set of parameters on the command line or in template.conf, both of which are searched by the script for user input
  #  (with the command line taking precendence where entries have been updated in both places). To take advantage of this setup, keep default
  #  settings, or the set of parameters that won't change from trial to trial, in template.conf, and only update the parameter values
@@ -113,7 +112,7 @@ if __name__ == "__main__":
  #  Execute the script on the command line with required parameters (plus any others to change from default settings), ensuring
  #  parameter names are entered exactly as shown in the "in_pars" dictionary below.
  #
- #  % python ipa_empt_template_script.py mode=interactive cra=53.159 cdec=-27.80 cpa_ap=194.0 n_trial=1 n_dither=3 catfile=medium_hst_02.cat
+ #  % python ipa_empt_template_script.py mode=interactive cra=53.159 cdec=-27.80 cpa_ap=194.0 n_trial=1 n_dither=3 catfile=my_msa_targets.cat
  #
  #
  #  Execute the script on the command line without arguments, setting parameters preferences instead in template.conf read by the script.
@@ -172,8 +171,6 @@ if __name__ == "__main__":
      else:
        in_pars[val] = cl_arg_vals[i]
        
-
-   
  else:
       print("\nNo command line arguments found. Taking starting input parameter values from template.conf.\n")
       
@@ -213,11 +210,10 @@ if __name__ == "__main__":
 
  else:
 
-     print("\nSince you have specified (or left the default) 'batch' run mode setting, please uncomment and customize the portion of this script starting at line 214 to define your batch runs of the eMPT software; an example is provided to get you started. Then, simply re-run the script in batch mode.")
+     print("\nSince you have specified (or left the default) 'batch' run mode setting, please uncomment and customize the portion of this script starting at line 225 to define your batch runs of the eMPT software; an example is provided to get you started. Then, simply re-run the script in batch mode.")
      time.sleep(10)
      
-    
-    
+   
      # --------------------------------------------------------------------------------------------------------------------------------------------
      # 
      # Example 'for' loop that explores two different nominal (i.e. starting) (Ra,Dec) locations around which to search for optimal pointings, at 5
