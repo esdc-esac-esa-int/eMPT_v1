@@ -95,29 +95,29 @@ if __name__ == "__main__":
 
  # =========================================================================================================================================
  #
- # Examples of usage:
- #
+ #  Examples of usage:
+ #  --------------------
  #  OPTION 1: Batch mode
- #
+ #  --------------------
  #  Uncomment and edit the example 'for' loop starting on line 225 of this script to define the batch of trials you would like to run.
  #  Define the starting set of parameters on the command line or in template.conf, both of which are searched by the script for user input
  #  (with the command line taking precendence where entries have been updated in both places). To take advantage of this setup, keep default
  #  settings, or the set of parameters that won't change from trial to trial, in template.conf, and only update the parameter values
  #  that are actively being explored on the command line or inside the script itself.
  #
- #  % python ipa_empt_template_script.py mode=batch
- #
- #
+ #  % python empt_explore.py mode=batch
+ #  
+ #  -----------------------------------------------------------------------------------------
  #  OPTION 2 : Single run interactive mode (command line parameter entry OR in template.conf)
- #
+ #  -----------------------------------------------------------------------------------------
  #  Execute the script on the command line with required parameters (plus any others to change from default settings), ensuring
  #  parameter names are entered exactly as shown in the "in_pars" dictionary below.
  #
- #  % python ipa_empt_template_script.py mode=interactive cra=53.159 cdec=-27.80 cpa_ap=194.0 n_trial=1 n_dither=3 catfile=my_msa_targets.cat
+ #  % python emot_explore.py mode=interactive cra=53.159 cdec=-27.80 cpa_ap=194.0 n_trial=1 n_dither=3 catfile=my_msa_targets.cat
  #
  #  Execute the script on the command line without arguments, setting parameters preferences instead in template.conf read by the script.
  #
- #   % python ipa_empt_template_script.py mode=interactive
+ #   % python empt_explore.py mode=interactive
  # 
  # ==========================================================================================================================================
 
