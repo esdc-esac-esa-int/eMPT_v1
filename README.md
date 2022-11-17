@@ -1,6 +1,6 @@
 # eMPT
 
- The eMPT Software and User Guide is contained in file eMPT_user_guide_release.pdf .
+ The eMPT Software and User Guide is contained in file eMPT_user_guide_release.pdf. For the full introduction to and in-depth description of its algorithms and design, refer to the submitted draft paper contained in eMPT_paper_AA_submit.pdf.
   
 QUICK START GUIDE
  
