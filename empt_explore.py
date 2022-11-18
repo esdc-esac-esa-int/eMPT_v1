@@ -214,20 +214,20 @@ if __name__ == "__main__":
      time.sleep(10)
      
    
-     # --------------------------------------------------------------------------------------------------------------------------------------------
+     # ---------------------------------------------------------------------------------------------------------------------------------------------------
      # 
-     # Example 'for' loop that explores two different nominal (i.e. starting) (Ra,Dec) locations around which to search for optimal pointings, at 5
-     # different roll angles. Edit the parameter names accordingly, add or subtract a nested loop, etc., to loop through your eMPT parameters in
-     # which you are interested in a similar fashion, to explore the eMPT parameter space and produce the most optimal MSA masks for your science program.
+     # Example 'for' loop that explores two different nominal (i.e. starting) (RA,Dec) locations around which to search for optimal pointings, at 5
+     # different roll angles. Edit the parameter names accordingly, add or subtract a nested loop, etc., to loop through the eMPT parameters in which
+     # you are interested in a similar fashion, to explore the eMPT parameter space and produce the most optimal MSA masks for your science program.
      # 
-     # --------------------------------------------------------------------------------------------------------------------------------------------
+     # ---------------------------------------------------------------------------------------------------------------------------------------------------
      #
      #user_pars = {}
      #trial_map={}  
 
 
-     #test_nom_pos = [(53.14187071428572,-27.809516857142857), (53.141582,-27.81504)]
-     #test_pa_v3 = range(25,225,5)
+     #test_nom_pos = [(53.14187071428572,-27.809516857142857), (53.141582,-27.81504)] # explore two different nominal pointing positions
+     #test_pa_v3 = range(25,225,5)                                                    # at five different roll angles
      #test_pa_ap = np.array([float(p) for p in test_pa_v3]) + 138.492
 
 
@@ -241,7 +241,7 @@ if __name__ == "__main__":
      
      #  for i,pa in enumerate(test_pa_ap):
 
-     #    if ntrial<10:
+     #    if ntrial<10:                      
      #      ntrial_str = "0"+str(ntrial)
      
      #    else:
@@ -271,7 +271,7 @@ if __name__ == "__main__":
  
  
      #for k in trial_map:
-     #   print("trial "+str(k)+": "+str(trial_map[k])+" PA_AP,RA,Dec")
+     #   print("trial "+str(k)+": "+str(trial_map[k])+" PA_AP, RA, Dec")
 
 
             
