@@ -10,13 +10,21 @@ Run the eMPT using the provided test data set by executing the shell script 'bat
 
 #! /bin/bash
 ./ipa 00.conf
+#
 ./k_make 00.conf
+#
 ./k_clean 00.conf
+#
 ./m_make 00.conf
+#
 ./m_sort 00.conf
+#
 ./m_pick 00.conf
+#
 ./m_check 00.conf
+#
 ./m_check_regions 00.conf
+#
 
 % ./batch_00.sh
 
