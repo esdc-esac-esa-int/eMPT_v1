@@ -9,6 +9,7 @@ Run the eMPT using the provided test data set by executing the shell script 'bat
 % more batch_00.sh:
 
 #! /bin/bash
+#
 ./ipa 00.conf
 #
 ./k_make 00.conf
