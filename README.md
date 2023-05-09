@@ -1,6 +1,6 @@
 # eMPT
 
- The eMPT Software and User Guide is contained in file eMPT_user_guide_release.pdf. For the full introduction to and in-depth description of its algorithms and design, refer to the submitted draft paper contained in eMPT_paper_AA_submit.pdf.
+The eMPT Software and User Guide is contained in file eMPT_user_guide_release_v1_doc_v1.1.pdf, including detailed installation instructions. The full introduction to, and in-depth description of, its algorithms and design can be found in the paper "The Near-Infrared Spectrograph (NIRSpec) on the James Webb Space Telescope V. Optimal algorithms for planning multi-object spectroscopic observations" at https://www.aanda.org/articles/aa/full_html/2023/04/aa45403-22/aa45403-22.html
   
 QUICK START GUIDE
  
