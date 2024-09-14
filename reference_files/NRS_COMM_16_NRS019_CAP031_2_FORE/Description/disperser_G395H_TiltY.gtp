@@ -1,0 +1,37 @@
+*REFERENCE
+ESA-JWST-SCI-NRS-TN-2017-028, NID 548
+
+*AUTHOR
+p_spec_fit_gwa_sens_disp.py v.1.3.21
+
+*DATE
+2022-06-03T16:03:23.258417
+
+*VERSION
+2.0.1
+
+*TYPE
+GTP
+
+*DESCRIPTION
+GWA X tilt sensor fit for G395H with zero point for NRS_COMM_14_NRS019_CAP031_2_FORE_G3H
+
+*Unit
+arcsec
+
+*N_Temperatures
+1
+
+*Temperatures 1
+37.5
+
+*Order
+1
+
+*Zeroreadings 1
+0.3192516000000007
+
+*CoeffsTemperature00 2
+-8892.630398554878
+2838.1279143230604
+
